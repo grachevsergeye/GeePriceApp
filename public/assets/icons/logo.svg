@@ -1,0 +1,16 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rotated Coupon -->
+  <g transform="rotate(45 100 100)">
+    <!-- Coupon Shape -->
+    <rect x="40" y="60" width="120" height="80" rx="10" ry="10" fill="purple" stroke="white" stroke-dasharray="5,5" stroke-width="2"/>
+    
+    <!-- Perforated Line in the Middle -->
+    <line x1="100" y1="60" x2="100" y2="140" stroke="white" stroke-dasharray="5,5" stroke-width="2"/>
+
+    <!-- Dollar Sign ($) -->
+    <text x="75" y="110" font-size="30" font-weight="bold" text-anchor="middle" fill="white">$</text>
+
+    <!-- Percentage Sign (%) -->
+    <text x="125" y="110" font-size="30" font-weight="bold" text-anchor="middle" fill="white">%</text>
+  </g>
+</svg>
